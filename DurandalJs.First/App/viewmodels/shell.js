@@ -10,10 +10,10 @@
             router.map([
                 { route: '', title: 'Home', moduleId: 'viewmodels/welcome', nav: true },
                 { route: 'aboutus', title:'About Us', moduleId: 'viewmodels/aboutus', nav: true },
-                { route: 'contactus', title:'Contact Us', moduleId: 'viewmodels/contactus', nav: true }
+                { route: 'contactus', title: 'Contact Us', moduleId: 'viewmodels/contactus', nav: true },
+                { route: 'login', title: 'Login', moduleId: 'viewmodels/login', type: 'right', nav: true },
+                { route: 'forgotpassword', title: 'Forgot Password', moduleId: 'viewmodels/forgotpassword', nav: false }
             ]).buildNavigationModel();
-
-            
 
             return router.activate({ pushState: true });
         }

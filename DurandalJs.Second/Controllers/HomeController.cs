@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace DurandalJs.First.Controllers
+namespace DurandalJs.Second.Controllers
 {
     public class HomeController : Controller
     {
